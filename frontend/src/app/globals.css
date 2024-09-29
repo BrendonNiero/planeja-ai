@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ================== HEADER HOME =============== */
+.header-home {
+    background-image: url("/header-home-pai.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-category {
+    background: rgb(72,41,168);
+    background: radial-gradient(circle, rgba(72,41,168,1) 0%, rgba(1,6,28,1) 75%);
+}
+
+.bg-category-selected {
+    background: rgb(72,41,168);
+    background: radial-gradient(circle, rgb(84 36 233) 0%, rgb(64 83 253) 75%);
+}
+
+.gradient-text {
+    font-weight: 800;
+    background: linear-gradient(80deg, rgba(214,8,247,1) 0%, rgba(13,108,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.card-category {
+    @apply border-t-2 shadow-obsidian shadow-xl border-foggy p-5 rounded-md bg-category scale-[0.8] hover:scale-[1] transition ease-linear cursor-pointer;
+}
+
+/* ================ CHAT ================ */
+
+.bg-chat {
+    background: rgb(19,18,26);
+    background: linear-gradient(120deg, rgba(19,18,26,1) 0%, rgba(30,29,37,1) 63%);
+    -webkit-box-shadow: 0px 0px 127px -9px rgba(63,34,156,1);
+    -moz-box-shadow: 0px 0px 127px -9px rgba(63,34,156,1);
+    box-shadow: 0px 0px 127px -9px rgba(63,34,156,1);
+}
