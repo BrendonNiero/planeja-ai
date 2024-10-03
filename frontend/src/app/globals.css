@@ -63,3 +63,9 @@
         top: 0;
     }
 }
+
+/* ================ FEEDBACK ================ */
+.bg-gradient-feedback {
+    background: rgb(204,193,210);
+background: linear-gradient(180deg, rgba(204,193,210,1) 0%, rgba(122,50,191,1) 32%, rgba(1,6,26,1) 71%);
+}
