@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    color-scheme: dark;
+  }
 
 /* ================== HEADER HOME =============== */
 .header-home {
