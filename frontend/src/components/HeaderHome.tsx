@@ -1,26 +1,25 @@
-import { BsTranslate } from "react-icons/bs";
-import { MdOutlineScience } from "react-icons/md";
-import { TbMath } from "react-icons/tb";
+import Link from "next/link";
+import { FaChevronRight } from "react-icons/fa6";
 
-export default function HeaderHome(){
+export default function NewHeaderHome(){
     return(
-        <section className="header-home h-screen w-full flex flex-col items-center justify-center px-20">
-            <h1 className="text-8xl font-extrabold w-[1400px] text-center mb-10">Planeje aulas incríveis em minutos com o 
-              <span className="text-white"> Planeja</span>
-              <span className="gradient-text">AI</span>
-            </h1>
-            <p className="text-4xl font-bold text-foggy mb-20">A inteligência artificial que facilita seu trabalho.</p>
-            <div className="flex gap-10">
-              <div className="card-category">
-                <BsTranslate className="text-6xl text-white"/>
-              </div>
-              <div className="card-category">
-                <TbMath className="text-6xl text-white"/>
-              </div>
-              <div className="card-category">
-                <MdOutlineScience className="text-6xl text-white"/>
-              </div>
+        <section className="h-[130vh] bg-[#060117] mt-20">
+            <div className="flex flex-col items-center justify-center">
+                <h1 className="text-6xl font-bold w-[900px] leading-[5rem] text-center mb-5">
+                    <span className="bg-span-short px-4">Planeje</span> aulas incríveis em minutos com o <span className="bg-span px-4">PlanejaAI</span>
+                </h1>
+                    <p className="text-[#A6A2A2] text-xl w-[700px] mb-10 text-center">Precisa de ideias para suas aulas? Nosso Chat IA cria sugestões personalizadas para você em tempo real. 
+                        Experimente agora e economize tempo no planejamento!</p>
+                    <div className="flex gap-5 items-center">
+                        <button className="bg-[#6238FE] px-10 py-3 rounded-md font-semibold">Comece Agora</button>
+                        <Link className="flex items-center gap-3" href={"https://github.com/BrendonNiero/planeja-ai"}>
+                            <span>GitHub</span>
+                            <FaChevronRight />
+                        </Link>
+                    </div>
             </div>
-      </section>
+            <div className="bg-new-header-home h-screen">
+            </div>
+        </section>
     )
 }

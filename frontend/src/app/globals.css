@@ -69,3 +69,34 @@
     background: rgb(204,193,210);
 background: linear-gradient(180deg, rgba(204,193,210,1) 0%, rgba(122,50,191,1) 32%, rgba(1,6,26,1) 71%);
 }
+
+/* ============== TESTE NEW LAYOUT ================== */
+.bg-new-header-home {
+    background-image: url("/header-bg-planeja-ai.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-span {
+    background-image: url("/bg-span.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-span-short {
+    background-image: url("/bg-span-short.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* =================== TOOLS =================== */
+
+.bg-section-tools {
+    background-image: url("/functionalits.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
