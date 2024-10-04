@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Tools(){
     return(
-        <section className="flex flex-col items-center justify-center h-screen w-full">
+        <section className="flex flex-col items-center justify-center h-[80vh] w-full">
             <h1 className="text-8xl font-extrabold w-[1400px] text-center mb-32">Ferramentas mais utilizadas por educadores</h1>
             <div className="flex items-center gap-5">
                 <Link href={"https://gamma.app/"} className="bg-[#131226] scale-[0.9] hover:border-2 hover:border-vivid hover:scale-[1] transition ease-linear border border-[#373741] h-[250px] w-[300px] rounded-xl flex flex-col items-center p-5">

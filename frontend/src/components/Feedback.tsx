@@ -3,7 +3,7 @@ import { FaChevronRight } from "react-icons/fa6";
 
 export default function Feedback(){
     return(
-        <section className="h-screen w-full flex flex-col items-center text-center justify-center">
+        <section className="h-[80vh] w-full flex flex-col items-center text-center justify-center">
             <h1 className="text-8xl font-extrabold text-center mb-10">
                 Envie seu Feedback
             </h1>
