@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 export default function Navbar(){
     return(
-        <nav className="w-full relative top-0 left-0 flex items-center justify-between px-20 py-5">
+        <nav className="w-full absolute top-0 left-0 flex items-center justify-between px-20 py-5">
             <Link href={"https://github.com/BrendonNiero/planeja-ai"} className="flex items-center">
               <img className="h-20 w-20" src="/logo-white.png" />
               <span className="text-white font-bold text-5xl">PlanejaAI</span>

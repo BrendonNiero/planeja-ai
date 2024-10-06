@@ -6,37 +6,6 @@
     color-scheme: dark;
   }
 
-/* ================== HEADER HOME =============== */
-.header-home {
-    background-image: url("/header-home-pai.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bg-category {
-    background: rgb(72,41,168);
-    background: radial-gradient(circle, rgba(72,41,168,1) 0%, rgba(1,6,28,1) 75%);
-}
-
-.bg-category-selected {
-    background: rgb(72,41,168);
-    background: radial-gradient(circle, rgb(84 36 233) 0%, rgb(64 83 253) 75%);
-}
-
-.gradient-text {
-    font-weight: 800;
-    background: linear-gradient(80deg, rgba(214,8,247,1) 0%, rgba(13,108,255,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-}
-
-.card-category {
-    @apply border-t-2 shadow-obsidian shadow-xl border-foggy p-5 rounded-md bg-category scale-[0.8] hover:scale-[1] transition ease-linear cursor-pointer;
-}
-
 /* ================ CHAT ================ */
 
 .bg-chat {
@@ -64,39 +33,58 @@
     }
 }
 
-/* ================ FEEDBACK ================ */
-.bg-gradient-feedback {
-    background: rgb(204,193,210);
-background: linear-gradient(180deg, rgba(204,193,210,1) 0%, rgba(122,50,191,1) 32%, rgba(1,6,26,1) 71%);
+/* ==================== header Home ======================= */
+.bg-header-home {
+    background-image: url("/background/full-size_01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/* ============== TESTE NEW LAYOUT ================== */
-.bg-new-header-home {
-    background-image: url("/header-bg-planeja-ai.png");
-    background-size: cover;
+.chat-img {
+    background-image: url("/chat.png");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-short-span {
+    background-image: url("/bg-span-short.png");
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-span {
     background-image: url("/bg-span.png");
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.bg-span-short {
-    background-image: url("/bg-span-short.png");
-    background-size: cover;
+/* ==================== features ========================== */
+
+.bg-features {
+    background-image: url("/background/full-size_03.jpg");
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* =================== TOOLS =================== */
+/* ===================== about ============================= */
 
-.bg-section-tools {
-    background-image: url("/functionalits.png");
-    background-size: cover;
+.bg-about {
+    background-image: url("/background/full-size_02.jpg");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ==================== feedback ========================== */
+
+.bg-feedback {
+    background-image: url("/background/full-size_04.jpg");
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
