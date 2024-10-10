@@ -87,7 +87,7 @@ export default function Chat() {
   const msg4card = `Como posso explicar o conceito de gravidade de forma prática?`
 
     return(
-        <section className="h-screen bg-white px-20 relative bottom-48 left-0 text-foggy">
+        <section className="h-[120vh] px-20 text-foggy pt-40">
         <div className="bg-chat w-full h-[850px] rounded-3xl  shadow-obsidian p-10">
           <div className="flex items-center justify-between">
             <button className="bg-coal border p-3 rounded-2xl border-foggy text-md font-bold">Exatas</button>

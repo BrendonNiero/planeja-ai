@@ -1,4 +1,4 @@
-import FeedbackArea from "@/components/Feedbackarea";
+import FeedbackArea from "@/components/Feedback";
 
 export default function Feedback(){
     return(

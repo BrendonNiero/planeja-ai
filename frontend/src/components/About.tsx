@@ -3,9 +3,27 @@ import { FaChevronRight } from "react-icons/fa6";
 export default function About(){
     return(
         <section className="bg-about h-screen w-full flex items-center gap-20">
-            <div className="w-[50%]">
+            <div className="w-[50%] relative">
+                <div className="glass-white p-3 w-[550px] ml-20">
+                    <div className="bg-biuld-with-ai p-5">
+                        <div className="flex items-center gap-5">
+                            <div className="w-[3px] h-[30px] bg-vivid"></div>
+                            <h2 className="text-vivid font-semibold text-4xl">O Que é o PlanejaAI?</h2>
+                        </div>
+                        <p>Uma ferramenta que facilita o planejamento de aulas com inteligência artificial.</p>
+                    </div>
+                </div>
                 <div className="w-ful flex items-center justify-end p-5">
                     <img className="w-[700px] cursor-default" src="/timeline-planejaai.png" alt="timeline"/>
+                </div>
+                <div className="glass-white p-3 w-[550px] absolute top-[35rem] right-10">
+                    <div className="bg-biuld-with-ai p-5">
+                        <div className="flex items-center gap-5">
+                            <div className="w-[3px] h-[30px] bg-vivid"></div>
+                            <h2 className="text-vivid font-semibold text-4xl">Contribua com o PlanejaAI</h2>
+                        </div>
+                        <p>Professores e desenvolvedores podem ajudar a melhorar a plataforma.</p>
+                    </div>
                 </div>
             </div>
             <div className="w-[50%]">

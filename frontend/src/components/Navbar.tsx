@@ -8,6 +8,17 @@ export default function Navbar(){
               <img className="h-20 w-20" src="/logo-white.png" />
               <span className="text-white font-bold text-5xl">PlanejaAI</span>
             </Link>
+            <div className="flex items-center gap-20 text-xl">
+              <Link href={"/"}>
+                <span>Início</span>
+              </Link>
+              <Link href={"/chat"}>
+                <span>Chat</span>
+              </Link>
+              <Link href={"/feedback"}>
+                <span>Feedback</span>
+              </Link>
+            </div>
             <Link className="flex items-center gap-5 text-xl border-white text-white border rounded-full py-3 px-7" href={"https://www.instagram.com/brendon_berzins/"}>
               <span>@brendon_berzins</span>
               <MdOutlineArrowOutward />

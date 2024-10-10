@@ -20,8 +20,8 @@ export default function WhatYouCanDo(){
                     <div className="flex items-center justify-between text-xl text-white mb-5">
                         <span>Aproveite o máximo do PlanejaAI!</span>
                         <div className="flex items-center gap-3">
-                            <BsStars />
-                            <span>Gerar com IA</span>
+                            <BsStars className="text-[#f82a8d]"/>
+                            <span className="text-ai-gradient">Gerar com IA</span>
                         </div>
                     </div>
                     <p>Explore nossas funcionalidades e veja como simplificamos suas tarefas.</p>

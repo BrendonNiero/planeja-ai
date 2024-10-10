@@ -33,6 +33,13 @@
     }
 }
 
+.bg-header-chat {
+    background-image: url("/background/bg-chat.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* ==================== header Home ======================= */
 .bg-header-home {
     background-image: url("/background/full-size_01.jpg");
@@ -63,6 +70,12 @@
 }
 
 /* ==================== features ========================== */
+
+.text-ai-gradient {
+    background: linear-gradient(to right, #f82a8d, #8045fe);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 .bg-features {
     background-image: url("/background/full-size_03.jpg");
