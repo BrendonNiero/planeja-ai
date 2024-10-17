@@ -132,3 +132,8 @@ backdrop-filter: blur(7px);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.bg-feedback-gradient {
+    background: rgb(1,6,26);
+    background: linear-gradient(0deg, rgba(1,6,26,1) 40%, rgba(74,29,133,1) 61%, rgba(210,183,224,1) 100%);
+}
