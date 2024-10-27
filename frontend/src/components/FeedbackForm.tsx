@@ -47,19 +47,23 @@ export default function FeedbackForm(){
             </div>
             <div className="w-full h-full p-10 flex flex-col items-center">
                 <h1 className="text-5xl font-semibold mb-5">Enviar Mensagem</h1>
-                <p className="text-foggy mb-20">Envie suas ideias de ferramentas para o PlanejaAI</p>
+                <p className="text-foggy mb-10">Envie suas ideias de ferramentas para o PlanejaAI</p>
                 <form className="w-[600px] flex flex-col gap-5">
                     <div className="w-full flex gap-5">
                         <div className="flex flex-col gap-3 w-full">
                             <span className="text-foggy">Nome:</span>
-                            <input className="w-full p-5 rounded-md" type="text" placeholder="Digite seu nome" />
+                            <input className="w-full p-5 rounded-md bg-[#191919] focus:outline-vivid outline-none" 
+                            type="text" placeholder="Digite seu nome" />
                         </div>
                         <div className="flex flex-col gap-3 w-full">
                             <span className="text-foggy">Assunto:</span>
-                            <input className="w-full p-5 rounded-md" type="text" placeholder="Digite o assunto" />
+                            <input className="w-full p-5 rounded-md bg-[#191919] focus:outline-vivid outline-none" 
+                            type="text" placeholder="Digite o assunto" />
                         </div>
                     </div>
-                    <textarea  className="h-[300px] p-5 rounded-md" placeholder="Envie sua menssagem" />
+                    <textarea  className="h-[300px] p-5 rounded-md bg-[#191919] overflow-y-auto resize-none focus:outline-vivid outline-none" 
+                    placeholder="Envie sua menssagem" />
+                    <button className="w-full p-5 rounded-md bg-[#6138FB] transition ease-out hover:bg-[#4e2dc7]">Enviar</button>
                 </form>
             </div>
         </section>
