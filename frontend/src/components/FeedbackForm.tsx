@@ -17,7 +17,7 @@ export default function FeedbackForm(){
                         <h1 className="text-5xl font-semibold">Envie seu Feedback</h1>
                         <p className="text-xl text-foggy">Colabore no desenvolvimento do PlanejaAI</p>
                         <div className="w-full mt-5 flex flex-col gap-5">
-                            <Link href={"/"} className="w-full">
+                            <Link href={"https://github.com/BrendonNiero"} className="w-full">
                                 <div className="flex items-center justify-between w-full p-5 bg-[#232323] rounded-md text-white
                                 hover:text-dark-obsidian hover:bg-white transition ease-in-out">
                                     <FaGithub className="text-4xl"/>
@@ -25,7 +25,7 @@ export default function FeedbackForm(){
                                     <FaChevronRight className="text-xl"/>
                                 </div>
                             </Link>
-                            <Link href={"/"} className="w-full">
+                            <Link href={"https://www.linkedin.com/in/brendon-berzins-45815b268/"} className="w-full">
                                 <div className="flex items-center justify-between w-full p-5 bg-[#232323] rounded-md text-white
                                 hover:text-dark-obsidian hover:bg-white transition ease-in-out">
                                     <FaLinkedinIn className="text-4xl"/>
@@ -33,7 +33,7 @@ export default function FeedbackForm(){
                                     <FaChevronRight className="text-xl"/>
                                 </div>
                             </Link>
-                            <Link href={"/"} className="w-full">
+                            <Link href={"https://www.instagram.com/brendon_berzins/"} className="w-full">
                                 <div className="flex items-center justify-between w-full p-5 bg-[#232323] rounded-md text-white
                                 hover:text-dark-obsidian hover:bg-white transition ease-in-out">
                                     <FaInstagramSquare className="text-4xl"/>
