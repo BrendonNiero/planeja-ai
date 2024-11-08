@@ -7,7 +7,7 @@ import { FaBolt } from "react-icons/fa6";
 
 export default function WhatYouCanDo(){
     return(
-        <section className="bg-features h-[150vh] w-full flex flex-col items-center justify-start">
+        <section className="bg-features h-full py-40 w-full px-10 flex flex-col items-center justify-start">
             <span className="border border-x-foggy text-cloud py-3 px-10 rounded-full">Funcionalidades</span>
             <div className="flex flex-col gap-5 items-center justify-center text-center w-[700px] mb-40">
                 <h1 className="text-6xl font-semibold mb-5">O que Você Pode Fazer com o PlanejaAI</h1>
@@ -17,7 +17,7 @@ export default function WhatYouCanDo(){
             </div>
             <div className="glass-white p-3 mb-20">
                 <div className="flex flex-col bg-biuld-with-ai p-10 rounded-xl border border-foggy">
-                    <div className="flex items-center justify-between text-xl text-white mb-5">
+                    <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between text-xl text-white mb-5">
                         <span>Aproveite o máximo do PlanejaAI!</span>
                         <div className="flex items-center gap-3">
                             <BsStars className="text-[#f82a8d]"/>
@@ -27,7 +27,7 @@ export default function WhatYouCanDo(){
                     <p>Explore nossas funcionalidades e veja como simplificamos suas tarefas.</p>
                 </div>
             </div>
-            <div className="flex gap-5">
+            <div className="flex gap-5 flex-wrap items-center justify-center">
                 <div className="glass-card card-features">
                     <MdKeyboardVoice  className="text-4xl mb-5"/>
                     <span className="text-xl text-white">Ouça suas Mensagens</span>
